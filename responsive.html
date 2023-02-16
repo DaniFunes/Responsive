@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .cabecera {
+            background-color: rgb(26, 174, 194);
+
+        }
+
+        .hero {
+            background-color: red;
+        }
+
+        .content {
+            background-color: green;
+        }
+
+        .sidebar {
+            background-color: fuchsia;
+        }
+
+        .footer {
+            background-color: gray;
+        }
+
+        header,
+        section,
+        .sidebar,
+        .content,
+        .footer {
+            padding: 10px;
+        }
+
+        @media screen and (min-width: 769px) {
+            .container {
+                display: flex;
+            }
+
+        }
+
+        @media screen and (min-width: 1024px) {
+            .container {
+                display: flex;
+                width: 80%;
+                justify-content: center;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="cabecera">
+        <p>HEADER</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam itaque placeat alias temporibus asperiores
+            consectetur nemo ab minus sit dolor.</p>
+    </header>
+
+    <main>
+        <section class="hero">
+            <p>HERO</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit ipsum asperiores dolor laboriosam quae
+                magni laudantium quo dolore obcaecati animi!</p>
+        </section>
+    </main>
+    <div class="container">
+        <div class="content">
+            <p>CONTENT</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt debitis excepturi a, ea natus neque
+                reprehenderit perspiciatis labore ad fugit necessitatibus quidem optio ipsam modi placeat, repellendus
+                culpa inventore vel dignissimos totam molestias saepe accusantium eligendi ex? Ipsum veritatis soluta
+                quidem repellendus excepturi tenetur explicabo odit magni sit asperiores praesentium ullam dignissimos
+                pariatur impedit distinctio velit iure cupiditate ad nisi dolorem eligendi, voluptatem voluptate! Ipsam
+                nobis ullam, adipisci totam repellat aperiam dolorem. Saepe deleniti molestiae aliquid illo commodi
+                natus qui incidunt hic iure quod labore ipsam laboriosam ut maxime dolore, voluptas veniam officia velit
+                reiciendis non ab amet. In exercitationem autem temporibus adipisci, excepturi unde amet officiis atque
+                cupiditate perspiciatis ut laudantium porro? Blanditiis numquam recusandae perferendis odio error odit
+                harum atque ex sed fugit. Enim, atque! Hic, officia sit rem, sunt nulla quaerat quo cum saepe omnis
+                quisquam dolores repudiandae eum. Commodi ducimus earum laboriosam in, facere dolorum minus explicabo
+                quod fugit, dignissimos esse dolorem dolore natus quisquam exercitationem quaerat! Vero alias error
+                assumenda saepe similique, ex eveniet placeat libero inventore totam accusamus nulla quidem accusantium
+                soluta obcaecati consequuntur, amet praesentium maxime possimus, molestias sunt eaque numquam voluptate.
+                Voluptatum tempora delectus nobis perspiciatis numquam voluptatem reprehenderit mollitia ipsam harum?
+            </p>
+        </div>
+        <div class="sidebar">
+            <p>SIDEBAR</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda amet non nulla blanditiis obcaecati
+                nostrum quibusdam aspernatur rem atque voluptatem quos, in laboriosam provident consequatur eos dolor
+                nemo quis doloribus laborum voluptatum at minima. Praesentium libero numquam consequatur vel blanditiis
+                dolor et impedit sequi natus. Dignissimos aperiam nostrum assumenda aliquid et dolorem non voluptatibus
+                iure omnis quae ipsum exercitationem harum rerum, fugiat molestiae perferendis! Earum accusamus optio
+                sunt nostrum ex perferendis perspiciatis enim autem fugiat corrupti a aliquam incidunt esse, nulla qui
+                iure exercitationem, error dolorum cum eaque ipsam possimus. Quos deserunt aut ratione quibusdam
+                consectetur. Atque impedit natus inventore.</p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>FOOTER</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci consectetur excepturi iure fugit corporis
+            porro accusantium voluptates, est neque quisquam!</p>
+
+    </footer>
+
+
+
+</body>
+
+</html>
